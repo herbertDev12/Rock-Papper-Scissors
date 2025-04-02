@@ -1,0 +1,21 @@
+html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Piedra, Papel o Tijeras</title>
+    <style>
+        body {background-color: black;color: whitesmoke}
+        body { text-align: center; font-family: Arial; }
+        button { padding: 10px 20px; margin: 5px; }
+    </style>
+</head>
+<body>
+    <h1>¡Piedra, Papel o Tijeras!</h1>
+    <button onclick="jugar('piedra')">Piedra 🪨</button>
+    <button onclick="jugar('papel')">Papel 📄</button>
+    <button onclick="jugar('tijeras')">Tijeras ✂️</button>
+    <div id="resultado"></div>
+    <div id="marcador">Victorias: 0 | Derrotas: 0 | Empates: 0</div>
+</body>
+<script src="script.js"></script>
+</html>
