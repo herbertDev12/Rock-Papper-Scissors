@@ -1,0 +1,95 @@
+/* General styles */
+body {
+    background-color: rgba(0, 0, 0, 0.529);
+    color: whitesmoke;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-image: url('starfield.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Buttons */
+.buttons {
+    margin: 20px 0;
+}
+
+button {
+    padding: 12px 24px;
+    margin: 0 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #333;
+    color: white;
+    border: 2px solid #555;
+    border-radius: 8px;
+    transition: all 0.3s;
+}
+
+button:hover {
+    background-color: #555;
+    transform: scale(1.05);
+}
+
+/* Text elements */
+h1 {
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+#result, #score {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+}
+
+.selection {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+.vs {
+    color: #ccc;
+}
+
+.result-text {
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.win {
+    background-color: rgba(0, 128, 0, 0.3);
+    color: #7cfc00;
+}
+
+.lose {
+    background-color: rgba(139, 0, 0, 0.3);
+    color: #ff6347;
+}
+
+.tie {
+    background-color: rgba(169, 169, 169, 0.3);
+    color: #ccc;
+}
+
+/* Scoreboard */
+.wins { color: #7cfc00; }
+.losses { color: #ff6347; }
+.ties { color: #ccc; }
